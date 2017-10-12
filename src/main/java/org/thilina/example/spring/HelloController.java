@@ -15,7 +15,7 @@ public class HelloController {
 
     @RequestMapping("/")
     String hello() {
-        return "Hello Docker!";
+        return "Hello World!";
     }
 
     @Data
